@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.control-buttons {
+  position: relative;
+  z-index: 1000;
+}
+
+.container {
+  margin: 20px auto;
+  position: relative;
+  height: 1280px;
+  width: 720px;
+  overflow: hidden;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container1 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container1 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container1 .btn:hover {
+  background-color: black;
+}
